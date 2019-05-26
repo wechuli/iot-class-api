@@ -20,6 +20,6 @@ app.use((req, res) => {
   res.status(404).json({ error: "No route found" });
 });
 
-app.listen(5900, (req, res) => {
+app.listen(5900, () => {
   console.info("The app is listening at port 5900");
 });
